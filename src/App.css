@@ -399,14 +399,14 @@ form > textarea {
   resize: none;
 }
 
-form > input[type='submit'] {
+form > input[type='button'] {
   padding-left: 1%;
   padding-right: 1%;
   cursor: pointer;
   transition: 0.35s;
 }
 
-form > input[type='submit']:hover {
+form > input[type='button']:hover {
   background-color: #c70a0a;
   box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
 }
