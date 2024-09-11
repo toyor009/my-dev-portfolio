@@ -1,0 +1,25 @@
+const skills = [
+  'HTML',
+  'CSS',
+  'Tailwind',
+  'Bootstrap',
+  'JavaScript',
+  'TypeScript',
+  'Vue',
+  'Vuetify',
+  'Nuxt',
+  'Vuex',
+  'Pinia',
+  'React',
+  'Nextjs',
+  'Framer-Motion',
+  'Nodejs',
+  'PHP',
+  'Laravel',
+  'Git',
+  'Github',
+  'Webpack',
+  'ViteJS',
+];
+
+export default skills;
