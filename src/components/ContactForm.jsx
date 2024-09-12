@@ -24,7 +24,8 @@ const ContactForm = () => {
     setForm({ ...form, [field]: value });
   };
 
-  const submitForm = () => {
+  const submitForm = (e) => {
+    e.preventDefault();
     console.log('form: ', form);
     console.log('formIsFilled: ', formIsFilled);
     if (!formIsFilled) return;
@@ -68,7 +69,7 @@ const ContactForm = () => {
       </div>
 
       <div className='contact-form'>
-        <form name='contact'>
+        <form name='contact' onSubmit={submitForm}>
           <input
             type='text'
             name='senderName'
@@ -100,7 +101,7 @@ const ContactForm = () => {
             required
             onInput={(e) => updateContactForm('message', e.target.value)}
           ></textarea>
-          <input type='button' value='Send' onClick={submitForm} />
+          <input type='submit' value='Send' onSubmit={submitForm} />
         </form>
       </div>
     </div>
