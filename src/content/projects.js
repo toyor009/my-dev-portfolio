@@ -1,12 +1,12 @@
 //projects start
 const projects = [
   {
-    name: 'Movie Hub',
-    description: `This is a movie rating app designed to let users rate and review films that they've watched. It provides a platform for users to explore movie ratings, share their opinions and feedback. This app offers an intuitive way to engage with the movie-watching experience.`,
-    stack: ['Vue', 'Tailwind', 'Vite'],
+    name: 'ShopToyor',
+    description: `This is an e-commerce platform that offers a seamless shopping experience. In the latest fashion trends, you'll find a wide variety of collections to choose from. We've curated everything with quality and style in mind, so shopping becomes a breeze with easy browsing and fast delivery.`,
+    stack: ['React', 'Tailwind', 'Vite'],
     sourceCode: 'https://github.com/toyor009/MovieRatings',
-    img: '/rate-movie.png',
-    preview: 'https://rate-movie.netlify.app/',
+    img: '/shop-toyor.png',
+    preview: 'https://toyosi-shop.netlify.app/',
   },
   {
     name: 'Krypt',

@@ -18,12 +18,13 @@ const ProjectCard = (props) => {
       <div className='project-links'>
         {props.source && (
           <div>
-            <a href={props.source} className='github'>
+            {props.source && <a href={props.source} className='github'>
               <FaGithub />
-            </a>
-            <a href={props.preview}>
+            </a>}
+
+            {props.preview && <a href={props.preview}>
               <FaExternalLinkAlt />
-            </a>
+            </a>}
           </div>
         )}
       </div>
@@ -42,10 +43,10 @@ const ProjectCard = (props) => {
 ProjectCard.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  tags: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
-  source: PropTypes.string.isRequired,
-  preview: PropTypes.string.isRequired,
+  tags: PropTypes.string,
+  source: PropTypes.string,
+  preview: PropTypes.string,
 };
 
 export default ProjectCard;
