@@ -67,8 +67,8 @@ function App() {
                 name={project.name}
                 img={project.img}
                 description={project.description}
-                source={project.sourceCode}
-                preview={project.preview}
+                source={project?.sourceCode}
+                preview={project?.preview}
               />
             </div>
           ))}

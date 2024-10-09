@@ -16,17 +16,15 @@ const ProjectCard = (props) => {
       </div>
 
       <div className='project-links'>
-        {props.source && (
           <div>
-            {props.source && <a href={props.source} className='github'>
+            {props.source && <a href={props.source} target='_blank' rel="noreferrer" className='github'>
               <FaGithub />
             </a>}
 
-            {props.preview && <a href={props.preview}>
+            {props.preview && <a href={props.preview} target='_blank' rel="noreferrer">
               <FaExternalLinkAlt />
             </a>}
           </div>
-        )}
       </div>
 
       {/* <div className="project-tags">
