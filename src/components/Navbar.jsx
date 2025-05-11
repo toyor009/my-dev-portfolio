@@ -8,7 +8,7 @@ const Navbar = (props) => {
     <header className='header'>
       <nav>
         <div className='logo'>
-          <a href='index.html'>
+          <a href='#'>
             {props.firstName}
             <span>{props.lastName}</span>
           </a>

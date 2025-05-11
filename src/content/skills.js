@@ -14,6 +14,7 @@ const skills = [
   'Nextjs',
   'Framer-Motion',
   'Nodejs',
+  'Python',
   'PHP',
   'Laravel',
   'Git',

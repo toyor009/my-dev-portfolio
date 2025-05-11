@@ -1,11 +1,11 @@
 //projects start
 const projects = [
   {
-    name: 'ShopToyor',
+    name: 'ShopNow',
     description: `This is an e-commerce platform that offers a seamless shopping experience. In the latest fashion trends, you'll find a wide variety of collections to choose from. We've curated everything with quality and style in mind, so shopping becomes a breeze with easy browsing and fast delivery.`,
     stack: ['React', 'Tailwind', 'Vite'],
     // sourceCode: 'https://github.com/toyor009/MovieRatings',
-    img: '/shop-toyor.png',
+    img: '/shop-now.png',
     preview: 'https://toyosi-shop.netlify.app/',
   },
   {
