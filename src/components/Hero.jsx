@@ -32,6 +32,7 @@ const Hero = (props) => {
             strings: [
               'Software Engineer',
               'Frontend Engineer',
+              'Certified Vue.js Developer',
               'Crypto Enthusiast',
               'Web Developer',
             ],
